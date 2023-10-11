@@ -1,0 +1,18 @@
+# application.yml 예시
+# Thymeleaf Configuration
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+  freemarker:
+    cache: false
+
